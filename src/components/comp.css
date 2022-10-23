@@ -1,0 +1,79 @@
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(234, 237, 255);
+}
+  
+.colums{
+    box-shadow: rgba(0, 0, 0, 0.137) 0px 1px 4px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: none; 
+    position: fixed;
+    height: 100%;
+    width: 90px;
+    background-color: rgb(255, 255, 255);
+}
+.colums::-webkit-scrollbar {
+    display: none;
+}
+.midcol{
+    /* border-radius: 10px; */
+    margin: 15px;
+    height: 96%; 
+    width: 60px;
+    background-color: rgba(162, 161, 255, 0);
+} 
+.logobox{
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(163, 161, 255);
+    box-shadow: rgba(0, 0, 0, 0.425) 0px 1px 4px;
+}
+
+.logo{
+    padding: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.navlist1{
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 200px;
+    width: 60px;
+    background-color: rgb(234, 237, 255);
+    box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 3px;
+}
+.navlist2{
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 300px;
+    width: 60px;
+    background-color: rgb(234, 237, 255);
+    box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 3px;
+}
+.navlist3{
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 200px;
+    width: 60px;
+    background-color: rgb(234, 237, 255);
+    box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 3px;
+}
+.iconbox-l1{
+    margin-top: 16px;
+    padding: 8px;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.137) 0px 0px 3px;
+}
+.iconin{
+    background-color: red;
+}

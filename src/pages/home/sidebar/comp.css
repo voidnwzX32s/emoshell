@@ -1,15 +1,15 @@
 *{
     padding: 0px;
     margin: 0px;
-    background-color: rgb(234, 237, 255);
+    background-color: rgb(223, 243, 255);
 }
   
 .colums{
     box-shadow: rgba(0, 0, 0, 0.137) 0px 1px 4px;
     position: fixed;
     height: 100%;
-    width: 90px;
-    background-color: rgb(255, 255, 255);
+    width: 80px;
+    background-color:  rgb(185, 224, 255);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -29,7 +29,7 @@
 }
 .logobox{
     border-radius: 30px;
-    margin-top: 20px;
+    margin-top: 12px;
     margin-bottom: 4rem;
     height: 60px;
     width: 60px;
@@ -47,7 +47,7 @@
    
     font-size: small;
     background-color: transparent;
-    color: rgb(209, 209, 209);
+    color: rgb(167, 167, 167);
     font-weight: lighter;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -59,8 +59,8 @@
     border-radius: 10px;
     height: 300px;
     width: 60px;
-    background-color: rgba(0, 101, 148, 0.274);
-    box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 3px;
+    background-color: rgba(0, 124, 182, 0);
+    /* box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 3px; */
 }
 .navlist3{
     padding: 10px;
@@ -68,8 +68,8 @@
     border-radius: 10px;
     height: 200px;
     width: 60px;
-    background-color: rgba(0, 101, 148, 0.274);
-    box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 3px;
+    background-color: rgba(0, 101, 148, 0);
+    /* box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 3px; */
 }
 
 .iconbox-l2{
@@ -92,5 +92,5 @@
 }
 .iconin{
     cursor: pointer;
-    color: rgb(49, 23, 73);
+    color: rgb(36, 79, 107);
 }

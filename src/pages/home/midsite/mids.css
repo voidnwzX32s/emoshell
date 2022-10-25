@@ -5,75 +5,212 @@
 .main{
    overflow-y: scroll;
 }
+
+.topnev{
+    /* margin-left: 90px; */
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 124, 182);
+    box-shadow: rgba(78, 78, 78, 0.308) 0px 1px 4px;
+}
+.emo{
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(185, 224, 255);
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 20px;
+    text-shadow: rgb(53, 53, 53) 0px 2px 5px;;
+}
+.emoXpln{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+/* 
+==========top nev end ========= */
+
+
+
+
 .midbox{
-    margin-left: 90px;
+   
     background-image: linear-gradient(to right, rgb(0, 101, 148), rgb(0, 101, 148));
-    height: 70%;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    align-items: center;
     overflow-y: scroll;
 }
 .textbox{
+    
+    margin-right: 7rem;
     background-color: rgba(240, 248, 255, 0);
-    height: 10rem;
+    height: 11rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .h1text{
+    display: flex;
     background-color: rgba(255, 0, 0, 0);
-    font-size: 2.1rem;
-    margin-right: 7rem;
+    font-size: 2.5rem;
     font-weight: 700;
     width: 30rem;
     max-width: 40rem;
     height: 100%;
     color: rgb(255, 255, 255);
 }
+.h0text{
+    background-color: rgba(235, 37, 37, 0);
+    font-size: 1rem;
+    width: 30rem;
+    max-width: 40rem;
+    height: 30%;
+    color: rgba(255, 255, 255, 0.781);
+}
+.locationbox{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 3.8rem;
+    width: 9rem;
+    padding: 12px;
+    margin: 0.1rem 0; 
+    border-right: 2px solid rgb(221, 221, 221);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.locationList{
+    outline: none;
+}
 .Searchbox{
-    
+    margin-right: 7rem;
     display: flex;
     justify-content: center;
-    height: 3.44rem;
-    margin-top: 0.5rem;
+    height: 4rem;
+    width: 100%;
+    margin-top: 0.6rem;
     margin-bottom: 0.5rem;
-    margin-left: 7rem;
-    margin-right: 12rem;
-    background-color: rgba(255, 255, 255, 0.281);
+    background-color: rgba(255, 255, 255, 0);
    
 }
 .Search{
-   border-top-left-radius: 5px;
-   border-bottom-left-radius: 5px;
+   margin-right: 7rem;
    background-color: rgb(255, 255, 255);
-   border: 2px solid rgba(58, 88, 122, 0.308);
+   border: 0px solid rgba(58, 88, 122, 0.308);
    outline: none;
    color: rgb(49, 49, 49);
-   margin: 0.6rem 0;
-   padding: 0.5rem 0.75rem;
+   margin: 0.1rem 0;
+   padding: 0.9rem 0.75rem;
    width: 50%;
+   
    
 
 }
 .iconbox1{
-   border-top-right-radius: 5px;
-   border-bottom-right-radius: 5px;
-   border: 2px solid rgba(58, 88, 122, 0.308);
-   margin-top: 10px;
-   padding-left:2px;
-   padding-top: 4px;
-   height: 36px;
-   width: 31px;
-   background-color: azure;
+   border-top-right-radius: 50px;
+   border-bottom-right-radius: 50px;
+   border: 0px solid rgba(58, 88, 122, 0.308);
+   padding-left: 10px;
+   padding-top: 6px;
+   margin: 0.1rem 0;
+   width: 4rem;
+   background-color: rgb(255, 255, 255);
+    
+}
+.icongool{
+    border-radius: 50px;
+    background-color: rgb(0, 130, 190);
+    height: 3.1rem;
+    width: 3.1rem;
+    padding: 20%;
+}
+.icongool:hover{
+    border-radius: 50px;
+    background-color: rgb(0, 157, 230);
+    height: 3.1rem;
+    width: 3.1rem;
+    padding: 20%;
+    box-shadow: rgb(68, 68, 68) 0px 1px 10px;
 }
 .iconin{
     background-color: transparent;
-    color: rgb(0, 89, 141);
+    
+}
+/* ========================center box================= */
+
+
+.cardscrool{
+    overflow-x: scroll;
+    height: 22.45rem;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(165, 165, 165) 0px 1px 4px;
+    margin: 0px;
+    margin-right: 0px;
+    width: 300px;
+    height: 170px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+/* .card:hover{
+    box-shadow: rgb(59, 113, 150) 0px 1px 20px;
+    margin: 60px;
+    margin-right: 0px;
+    width: 26rem;
+    height: 18rem;
+} */
+.card-imgbox{
+    background-color: transparent;
+    height: 50%;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.textbox1{
+    background-color: rgba(0, 0, 255, 0); 
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+    text-align: center;
+}
+.cardtext1{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.cardtext2{
+    font-size: 0.9rem;
+    color: rgb(112, 112, 112);
 }
  /* ====================== contect bar ====================== */
 .contectbar{
     background-color: rgb(0, 101, 148);
-    height: 60%;
+    height: 5rem;
     width: 100%;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+}
+.line1{
+    color: aliceblue;
+    background-color: transparent;
 }

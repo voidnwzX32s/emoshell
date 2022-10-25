@@ -5,8 +5,11 @@ function home() {
   return (
     <>
     <Sidebar/>
+    <div style={{paddingLeft:"5rem"}}>
     <Midside/>
+    </div>
     </>
+    
   );
 }
 

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/emoshell/static/css/main.96ee611f.css",
+    "main.js": "/emoshell/static/js/main.9994b826.js",
+    "static/media/pil.gif": "/emoshell/static/media/pil.d7fa8492852eab8748c7.gif",
+    "static/media/emo.png": "/emoshell/static/media/emo.c444032ff368bab9a56e.png",
+    "index.html": "/emoshell/index.html",
+    "main.96ee611f.css.map": "/emoshell/static/css/main.96ee611f.css.map",
+    "main.9994b826.js.map": "/emoshell/static/js/main.9994b826.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96ee611f.css",
+    "static/js/main.9994b826.js"
+  ]
+}

@@ -1,0 +1,35 @@
+.bux1{
+    padding: 5px;
+    align-self: center;
+    position: fixed;
+    bottom: 0.3rem;
+    background-color: var(--bg-clr);
+    border-radius: 10px;
+    width: 20rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.527);
+}
+.b01{
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 0px;
+    background-color: rgba(255, 247, 236, 0.082);
+    width: 32.6%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms;
+}
+.b01:hover{
+    
+    background-color: rgba(215, 166, 255, 0.411);
+    
+}
+.img09{
+    background-color: transparent;
+    height: 55%;
+}

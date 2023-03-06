@@ -1,0 +1,64 @@
+*{
+    overflow: hidden;
+   
+}
+.clss{
+   overflow-y: scroll;
+   scroll-behavior: smooth;
+
+}
+.clss::-webkit-scrollbar {
+    display: none;
+}
+.abuteus{
+    background-color: rgb(2, 44, 63);
+    height: 25.95rem;
+}
+.textbox1{
+    
+    background-color: var(--bg-clr);
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.h1text4{  
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 30rem;
+    text-align: center;
+    height: 13%;
+    color: rgb(255, 255, 255);
+}
+.h0text1{
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgba(235, 37, 37, 0);
+    font-size: 1rem;
+    width: 30rem;
+    max-width: 40rem;
+    height: 10%;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+
+.aboutebox{
+    background-color: var(--fgltg-clr);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Acrd{
+    border-radius: 10px;
+   box-shadow: 0px 1px 5px rgb(94, 94, 94);
+   margin: 50px;
+   background-color: rgb(54, 54, 54);
+   height: 30rem;
+   width: 70rem;
+}

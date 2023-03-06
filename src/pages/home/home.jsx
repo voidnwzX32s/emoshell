@@ -1,16 +1,14 @@
 import React from 'react';
-import Sidebar from './sidebar/Sidebar';
-import Midside from '../home/midsite/midside';
-function home() {
+import Midside from './midsite/midside';
+function Home(props) {
   return (
     <>
-    <Sidebar/>
-    <div style={{paddingLeft:"5rem"}}>
-    <Midside/>
+    <div style={{paddingtop:"0rem"}}>
+     <Midside/>
     </div>
     </>
     
   );
 }
 
-export default home;
+export default Home;

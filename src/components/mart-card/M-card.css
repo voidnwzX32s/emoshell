@@ -1,0 +1,9 @@
+.mcard2{
+    background-color: var(--bg-crd-clr);
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0.7px rgba(0, 0, 0, 0.178);
+    width: 16.5rem;
+    height: 16.5rem;
+    margin: 10px;
+
+}

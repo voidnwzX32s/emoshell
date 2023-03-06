@@ -1,0 +1,29 @@
+*{
+    overflow: hidden;
+   
+}
+.Xmain{
+   overflow-y: scroll;
+ 
+}
+.Xmain::-webkit-scrollbar {
+    display: none;
+}
+
+.Xmidbox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.ymidbox{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  
+}
+.toparea{
+    height: 35rem;
+    margin: 0px;
+    border-radius: 0px;
+    background-color: var(--bg-clr);
+}

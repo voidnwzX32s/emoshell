@@ -1,67 +1,77 @@
 *{
     margin: 0%;
     padding: 0%;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--fgltg-clr);
     overflow: hidden;
 }
-.mainbox{
-    background-color: rgb(255, 187, 0);
-    /* display: flex; */
+.mainbox1{
+    /* background-color:var(--bg-clr); */
+    display: flex;
     justify-content: center;
+    align-items: center;
     overflow-y: scroll;
      
 } 
-.mainbox::-webkit-scrollbar {
+.mainbox1::-webkit-scrollbar {
     display: none;
 }
-.logintext{
+.logintext1{
    background-color: transparent;
    font-size: 2rem;
+   font-weight: 500;
+   color: var(--h1txt-clr);
    padding-bottom: 1rem;
 }
-.welcome{
+.welcome1{
     background-color: transparent;
     padding-bottom: 1rem;
+    color: var(--h2txt-clr);
 }
-.midllbox{
-    box-shadow: 0px 0px 5px rgb(102, 102, 102);
+.midllbox1{
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
     margin-top: 15rem;
-    margin-bottom: 10rem;
+    border: 3px solid var(--fg-brdr-clr);
+    margin-bottom: 17rem;
     padding: 1rem;
-    background-color: rgb(232, 248, 255);
-    height: 27rem;
-    max-height: 27rem;
+    background-color:var(--fg-lst-clr);
+    /* height: 27rem; */
     width: 20rem;
-    border-radius: 10px;
+    border-radius: 5px;
     align-items: center;
     text-align: center;
     
 }
-.feild{
-    border-radius: 8px;
-    border: 2px solid rgba(58, 88, 122, 0.308);
+.feild1{
+    border-radius: 5px;
+    border: 3px solid var(--fg-brdr-clr);
     outline: none;
-    color: rgb(49, 49, 49);
+    color: rgb(255, 255, 255);
     margin: 0.5rem 0;
     padding: 0.5rem 0.75rem;
+    /* background-color: var(--bg-lst-clr); */
+    background-color: var(--bg-light-clr);
     width: 100%;
 }
-.ortext{
+.ortext1{
     background-color: transparent;
     font-size: 1.2rem;
+    color: var(--h2txt-clr);
 }
-.btn{
-    border: 1px solid rgba(255, 255, 255, 0.253);
-    background-color: rgb(0, 4, 255);
+.btn1{
+
+    background-color: var(--bg-btn-clr);
     font-size: 1rem;
-    padding: 0.3rem;
+    padding: 0.2rem;
     margin: 0.5rem 0;
-    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
     outline: none;
     cursor: pointer;
     color: rgb(255, 255, 255);
 }
-.validate{
+
+.validate1{
     background-color: transparent;
     color: rgb(255, 0, 0);
     font-size: 12px;
